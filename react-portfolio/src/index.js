@@ -1,4 +1,4 @@
-import 'cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
