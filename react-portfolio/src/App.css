@@ -1,7 +1,50 @@
 @import url(https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css);
 @import url(https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap);
 /* @import url(https://fonts.googleapis.com);
 @import url(https://fonts.gstatic.com); */
+
+.nav-title-font {
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 65px;
+  color: greenyellow;
+  margin: 20px;
+}
+
+.icon {
+  height: 55px;
+  width: 55px;
+}
+
+.footer {
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.hero-body {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/445/975/670/web-development-minimalism-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.homeBody {
+  background-image: url(https://cdn.phenompeople.com/CareerConnectResources/prod/HONEUS/images/1920-568-coding-blog-1616781712070.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  color: aliceblue;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.nav-font {
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 40px;
+  margin: 20px;
+}
 
 .App {
   text-align: center;

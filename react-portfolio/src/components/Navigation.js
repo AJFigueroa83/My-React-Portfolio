@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
-function Navigation(props) {
+function Navigation() {
     return (
       <div>
         <Navbar expand="lg" bg="dark" sticky="top">
@@ -13,7 +13,7 @@ function Navigation(props) {
           </NavLink>
           <ul className="navbar-nav ml-auto navitem-indent">
             <li className="nav-item">
-              <NavLink to="/about">
+              <NavLink to="/aboutme">
                 <div className="nav-font text-light">About Me</div>
               </NavLink>
             </li>

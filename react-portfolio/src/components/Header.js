@@ -1,29 +1,30 @@
 import React, { Component } from 'react';
-import { Route, Link, HashRouter, Routes } from 'react-router-dom';
-import Navigation from './Navigation';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
+import Navigation from './Navigation'
+import Home from './home';
 
 class Header extends Component {
     render() {
         return (
-            <HashRouter>
+            <Router>
                 <header>
                     <Navigation />
                 </header>
 
                 <div className="content">
                     <Routes>
-                        <Route exact path="/" render={() => <Link to="/aboutMe" />} />
-                        <Route path="/aboutMe" component={AboutMe} />
-                        <Route path="/portfolio" component={Portfolio} />
-                        <Route path="/contact" component={Contact}/>
-                        <Route path="/resume" component={Resume}/>
+                        <Route exact path="/" element= {<Home/>} />
+                        <Route path="/aboutMe" element={<AboutMe/>} />
+                        <Route path="/portfolio" element={<Portfolio/>} />
+                        <Route path="/contact" element={<Contact/>}/>
+                        <Route path="/resume" element={<Resume/>}/>
                     </Routes>
                 </div>
-            </HashRouter>
+            </Router>
         )
     }
 }
