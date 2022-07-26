@@ -31,6 +31,7 @@ function ContactForm() {
     }
 
     return (
+        <div className="contact-container">
         <section className="container">
             <h2 data-testid='h1tag' className="top-title">Contact Form</h2>
             <hr></hr>
@@ -58,6 +59,7 @@ function ContactForm() {
                 </div>
             </form>
         </section>
+        </div>
     )
 }
 

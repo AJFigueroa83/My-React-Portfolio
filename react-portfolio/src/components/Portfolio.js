@@ -10,6 +10,7 @@ function Wrapper(props) {
 function Portfolio () {  
 
     return (
+      <div className='project-container'>
         <section className="container">
           <div className="project">
             <h2 className="top-title">My Portfolio</h2>
@@ -22,7 +23,7 @@ function Portfolio () {
             ))}
           </Wrapper>
         </section>
-    
+      </div>
     );
   }
 

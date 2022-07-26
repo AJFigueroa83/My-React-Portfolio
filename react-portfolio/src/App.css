@@ -4,6 +4,12 @@
 /* @import url(https://fonts.googleapis.com);
 @import url(https://fonts.gstatic.com); */
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .nav-title-font {
   font-family: 'Rubik Glitch', cursive;
   font-size: 65px;
@@ -17,11 +23,12 @@
 }
 
 .footer {
-  padding-bottom: 48px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   text-align: center;
 }
 
-.hero-body {
+.hero-body, .contact-container, .resume-container, .project-container {
   background-image: url(https://c4.wallpaperflare.com/wallpaper/445/975/670/web-development-minimalism-wallpaper-preview.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -35,15 +42,42 @@
   background-size: cover;
 }
 
+.homeTitle {
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 65px;
+  color: greenyellow;
+  margin-bottom: 0px;
+}
+
+.subtitle {
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 45px;
+  color: rgb(7, 244, 114);
+}
+
 .title {
   color: aliceblue;
   font-family: 'Architects Daughter', cursive;
+  font-size: 35px;
+}
+
+.card {
+  opacity: .5;
+  margin: 20px;
+}
+
+.card:hover {
+  opacity: 1;
 }
 
 .nav-font {
   font-family: 'Rubik Glitch', cursive;
   font-size: 40px;
   margin: 20px;
+}
+
+.nav-font:hover {
+  opacity: .5;
 }
 
 .App {
