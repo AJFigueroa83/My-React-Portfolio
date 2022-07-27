@@ -22,6 +22,11 @@
   width: 55px;
 }
 
+.icon-stack {
+  height: 75px;
+  width: 75px;
+}
+
 .footer {
   padding-bottom: 20px;
   padding-top: 20px;
@@ -33,6 +38,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-bottom: 95px;
+  min-height: calc(100vh - 229px);
 }
 
 .homeBody {
@@ -40,6 +47,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-height: calc(100vh - 229px);
 }
 
 .homeTitle {
