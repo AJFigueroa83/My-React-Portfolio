@@ -42,6 +42,11 @@
   min-height: calc(100vh - 229px);
 }
 
+.profile-pic {
+  margin-top: 60px;
+  border-radius: 200px;
+}
+
 .homeBody {
   background-image: url(https://cdn.phenompeople.com/CareerConnectResources/prod/HONEUS/images/1920-568-coding-blog-1616781712070.png);
   background-repeat: no-repeat;
@@ -54,7 +59,8 @@
   font-family: 'Rubik Glitch', cursive;
   font-size: 65px;
   color: greenyellow;
-  margin-bottom: 0px;
+  margin-bottom: 0px !important;
+  margin-top: 40px;
 }
 
 .subtitle {
@@ -67,6 +73,16 @@
   color: aliceblue;
   font-family: 'Architects Daughter', cursive;
   font-size: 35px;
+}
+
+.top-title {
+  color: aqua !important;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 45px !important;
+}
+
+.tags, .btn {
+  color: #61dafb;
 }
 
 .card {
@@ -86,6 +102,36 @@
 
 .nav-font:hover {
   opacity: .5;
+}
+
+.project-icon {
+  height: 40px;
+  width: 40px !important;
+  margin: 20px;
+}
+
+.input {
+  width: 1000px;
+  margin: 20px;
+}
+
+.input-message {
+  width: 1000px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.header {
+  color: aqua;
+  margin-right: 5px;
+  position: relative;
+}
+
+.submitBtn {
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  margin: 20px;
 }
 
 .App {

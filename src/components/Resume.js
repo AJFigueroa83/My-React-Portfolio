@@ -4,7 +4,7 @@ function Resume() {
     return (
         <main className="resume-container">
             <section className="container">
-                <img className="has-ratio" width='256' height='256' src="../../images/AJ Developer resume(portfolio).pdf" alt="resume"></img>
+                <iframe className="has-ratio" width='1344' height='1000' src="../../images/AJ Developer resume(portfolio).pdf" alt="resume"></iframe>
             </section>
         </main>
     )
