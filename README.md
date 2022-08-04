@@ -37,8 +37,8 @@ This is my personal portfolio. No contributions necessary.
 
 ## Deployment
 
-🚀 Click [here](https://github.com/AJFigueroa83/My-Portfolio) to view the repo.  
-🚀 Click [here](https://ajfigueroa83.github.io/My-Portfolio/) to view the deployed site.
+🚀 Click [here](https://github.com/AJFigueroa83/My-React-Portfolio) to view the repo.  
+🚀 Click [here](https://ajfigueroa83.github.io/My-React-Portfolio/) to view the deployed site.
 
 ## Questions
 

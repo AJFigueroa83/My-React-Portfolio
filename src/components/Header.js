@@ -10,7 +10,7 @@ import Home from './home';
 class Header extends Component {
     render() {
         return (
-            <Router>
+            <Router basename='/'>
                 <header>
                     <Navigation />
                 </header>
