@@ -1,4 +1,4 @@
-@import url(https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css);
+/* @import url(https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css); */
 @import url(https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap);
 /* @import url(https://fonts.googleapis.com);
@@ -98,6 +98,10 @@
   font-family: 'Rubik Glitch', cursive;
   font-size: 40px;
   margin: 20px;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 .nav-font:hover {
