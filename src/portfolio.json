@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Quiz Game",
-        "image": "../../images/quiz.png",
+        "image": "./images/quiz.png",
         "github": "https://github.com/AJFigueroa83/HW-4-Code-Quiz",
         "deploy": "https://ajfigueroa83.github.io/HW-4-Code-Quiz/",
         "topics": "Inquirer Application"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Yikes!",
-        "image": "../../images/yikes!.png",
+        "image": "./images/yikes!.png",
         "github": "https://github.com/AJFigueroa83/yikes",
         "deploy": "https://abracadabrant-madame-00120.herokuapp.com/",
         "topics": "Second group collaboration using sequelize databases."
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Scheduler App",
-        "image": "../../images/scheduler.png",
+        "image": "./images/scheduler.png",
         "github": "https://github.com/AJFigueroa83/HW-5-Scheduler",
         "deploy": "https://ajfigueroa83.github.io/HW-5-Scheduler/",
         "topics": "Moment.js and express application"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Find My Brewery",
-        "image": "../../images/screenshot (1).png",
+        "image": "./images/screenshot (1).png",
         "github": "https://github.com/AJFigueroa83/project-01-findmybrewery",
         "deploy": "https://christopherginn.github.io/project-01-findmybrewery/",
         "topics": "First group collaboration and API usage"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "JATE",
-        "image": "../../images/JATE.png",
+        "image": "./images/JATE.png",
         "github": "https://github.com/AJFigueroa83/JATE-PWA",
         "deploy": "https://agile-bastion-34249.herokuapp.com/",
         "topics": "Text Editor-PWA"
