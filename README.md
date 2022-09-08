@@ -33,7 +33,7 @@ This is my personal portfolio. No contributions necessary.
 
 ## Mock-UP
 
-![Alfredo J Figueroa's portfolio and profile picture on a network lines background](/assets/images/portfolio-home.png)
+![Alfredo J Figueroa's portfolio and profile picture on a network lines background](./public/images/portfolio-home.png)
 
 ## Deployment
 
