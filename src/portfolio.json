@@ -5,7 +5,7 @@
         "image": "./images/quiz.png",
         "github": "https://github.com/AJFigueroa83/HW-4-Code-Quiz",
         "deploy": "https://ajfigueroa83.github.io/HW-4-Code-Quiz/",
-        "topics": "Inquirer Application"
+        "topics": "A quiz game designed to help educate people in the field of wine. This has been built using inquirer, javascript, html, and css"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "image": "./images/yikes!.png",
         "github": "https://github.com/AJFigueroa83/yikes",
         "deploy": "https://abracadabrant-madame-00120.herokuapp.com/",
-        "topics": "Second group collaboration using sequelize databases."
+        "topics": "This project is group collaboration set to provide a client review app for business to rate their clients. Built with: html, css, javascript, sequelize, MySql and expressJS."
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "image": "./images/scheduler.png",
         "github": "https://github.com/AJFigueroa83/HW-5-Scheduler",
         "deploy": "https://ajfigueroa83.github.io/HW-5-Scheduler/",
-        "topics": "Moment.js and express application"
+        "topics": "This work is a desktop scheduling app design to help th euser organize their days to be more eficient. Built with html, css, javascript, Moment.js and express."
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "image": "./images/screenshot (1).png",
         "github": "https://github.com/AJFigueroa83/project-01-findmybrewery",
         "deploy": "https://christopherginn.github.io/project-01-findmybrewery/",
-        "topics": "First group collaboration and API usage"
+        "topics": "This project is group collaboration set to provide an alterantive tool to better search for local breweries. Built with: html, css, javascript, googleAPIs, Open BreweryDB, and jquery."
     },
     {
         "id": 5,
@@ -37,6 +37,6 @@
         "image": "./images/JATE.png",
         "github": "https://github.com/AJFigueroa83/JATE-PWA",
         "deploy": "https://agile-bastion-34249.herokuapp.com/",
-        "topics": "Text Editor-PWA"
+        "topics": "This is a text editor PWA which provides an easier alternative to other text editor while being able to be installed as a PWA. Built with javascript, node, express, babel and webpack using a service worker."
     }
 ]
